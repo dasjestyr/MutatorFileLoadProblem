@@ -1,0 +1,28 @@
+﻿{
+  "profiles": {
+    "Local": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Local",
+        "ASPNETCORE_preventHostingStartup": "True", // disable ApplicationInsights
+        "GOOGLE_APPLICATION_CREDENTIALS": "C:\\gcloud\\DASPlatform-Production-developer.json"
+      }
+    },
+    "Development": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_preventHostingStartup": "True" // disable ApplicationInsights
+      }
+    },
+    "Production": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+  "AzureKeyVault": {
+    "VaultUri": "https://dasplatformkeyvault-dev.vault.azure.net/",
+    "ClientId": "9fdd54e8-3429-44d7-9a8a-3914052e0b03",
+    "ClientSecret": "FromEnvironmentVariable"
+  }
+}
