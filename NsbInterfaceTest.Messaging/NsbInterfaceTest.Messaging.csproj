@@ -1,18 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="NServiceBus" Version="7.1.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NsbInterfaceTest.Messaging\NsbInterfaceTest.Messaging.csproj" />
+    <ProjectReference Include="..\NsbInterfaceTest.Shared\NsbInterfaceTest.Shared.csproj" />
   </ItemGroup>
 
 </Project>

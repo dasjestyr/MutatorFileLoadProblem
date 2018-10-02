@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NsbInterfaceTest.Messaging\NsbInterfaceTest.Messaging.csproj" />
+    <ProjectReference Include="..\NsbInterfaceTest.Shared\NsbInterfaceTest.Shared.csproj" />
   </ItemGroup>
 
 </Project>
